@@ -4,16 +4,30 @@ Vivemos uma era marcada pelo avanço da ciência, computação, energia e inteli
 
 Por isso o desafio desta fase é produzir o relatório operacional de pré-decolagem, documento que consolida as verificações necessárias para autorizar ou abortar o lançamento da nave Aurora Siger.
 
-O programa utilizado na nave Aurora Siger, vai analisar as métricas que os sensores da nave estão recebendo. O algoritimo vai medir se os parâmetros estão dentro do previsto, e decidir se a nave está pronta para a decolagem ou não.
+O script automatiza a checagem de sensores térmicos, de pressão e de integridade. Ele utiliza uma estrutura de repetição para validar um dicionário de riscos e interrompe a missão caso qualquer parâmetro saia das margens de segurança estabelecidas no manual da missão.
+
+===========================================================
+
+Parâmetros de Segurança
+O sistema valida as seguintes condições antes de autorizar o lançamento:
+
+- Bateria: Mínimo de 80% (Carga atual: 92%).
+- Integridade Estrutural: Deve ser True (1).
+- Temperatura Interna: Entre 15°C e 35°C.
+- Temperatura Externa: Entre -20°C e 40°C.
+- Pressão dos Tanques: Entre 250 e 320 bar.
 
 ===========================================================
 
 # Acessar código
 
-Abra o arquivo "relatorio.ipynb" no Command Prompt ou em sua IDE, Editor de Código.
+Como o projeto está em formato .ipynb (Jupyter Notebook):
 
-Se estiver pelo CMD, entre no repositório onde está o arquivo e use o comando:
-"python relatorio.ipynb"
+Abra o arquivo em alguma IDE.
+Certifique-se de ter o interpretador Python instalado.
+Execute todas as células para visualizar a validação dos dados.
+(Se você converteu para .py, use o comando python relatorio.py no terminal).
+
 
 ===========================================================
 # Print do código
