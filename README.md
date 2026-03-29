@@ -6,7 +6,7 @@ Por isso o desafio desta fase é produzir o relatório operacional de pré-decol
 
 O programa utilizado na nave Aurora Siger, vai analisar as métricas que os sensores da nave estão recebendo. O algoritimo vai medir se os parâmetros estão dentro do previsto, e decidir se a nave está pronta para a decolagem ou não.
 
-=====================================================================================
+===========================================================
 
 # Acessar código
 
@@ -15,8 +15,7 @@ Abra o arquivo "relatorio.ipynb" no Command Prompt ou em sua IDE, Editor de Cód
 Se estiver pelo CMD, entre no repositório onde está o arquivo e use o comando:
 "python relatorio.ipynb"
 
-=====================================================================================
-
+===========================================================
 # Print do código
 
 
