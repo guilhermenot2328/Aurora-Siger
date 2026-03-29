@@ -16,6 +16,7 @@ O sistema valida as seguintes condições antes de autorizar o lançamento:
 - Temperatura Interna: Entre 15°C e 35°C.
 - Temperatura Externa: Entre -20°C e 40°C.
 - Pressão dos Tanques: Entre 250 e 320 bar.
+- Módulos Críticos> Deve estar "Ok"
 
 ===========================================================
 
@@ -34,3 +35,5 @@ Execute todas as células para visualizar a validação dos dados.
 
 ![image alt](https://github.com/guilhermenot2328/Aurora-Siger/blob/96e7ffa6fb9cce14cf3551214aa16d2f9fbcb886/image.png)
 
+A missão foi abortada!!
+A integridade estrutural não estava dentro dos parâmetros para decolagem.
