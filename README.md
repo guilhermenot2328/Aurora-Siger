@@ -31,7 +31,7 @@ Execute todas as células para visualizar a validação dos dados.
 
 
 ===========================================================
-# Print do código
+# Print da saida do programa
 
 ![image alt](https://github.com/guilhermenot2328/Aurora-Siger/blob/96e7ffa6fb9cce14cf3551214aa16d2f9fbcb886/image.png)
 
